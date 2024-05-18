@@ -23,7 +23,7 @@ def wishMe():
         speak("good afternoon")
     else:
         speak("good evening")
-    speak("I am Aryan. how may I help you ?")
+    speak("I am Raj. how may I help you ?")
 
 def takeCommand():
     r = sr.Recognizer()
@@ -64,7 +64,7 @@ if __name__ == "__main__":
             speak(f"The time is {strTime}")
             print(strTime)
         elif 'open visual studio' in query:
-            codePath = "C:\\Users\\aryan\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            codePath = "C:\\Users\\raj\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(codePath)
         elif 'shutdown' in query:
             exit()
